@@ -1,4 +1,4 @@
-package lab1;
+package lab5;
 
 public abstract class Bird extends Animal {
     private int flightAltitude;
@@ -26,5 +26,4 @@ public abstract class Bird extends Animal {
         this.height = height;
     }
 
-    public abstract String getDescription();
 }

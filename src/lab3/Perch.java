@@ -1,7 +1,11 @@
-package lab1;
+package lab3;
 
 public class Perch extends Fish {
     private String typePerch;
+
+    public Perch(){
+        super();
+    }
 
     public Perch(int age, int weight, int immersionDepth, int length, String typePerch) {
         super(age, weight, immersionDepth, length);

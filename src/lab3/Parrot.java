@@ -1,7 +1,11 @@
-package lab1;
+package lab3;
 
-public class Parrot extends Bird{
+public class Parrot extends Bird {
     private String typeParrot;
+
+    public Parrot(){
+        super();
+    }
 
     public Parrot(int age, int weight, int flightAltitude, int height, String typeParrot) {
         super(age, weight, flightAltitude, height);

@@ -1,4 +1,4 @@
-package lab1;
+package lab5;
 
 public abstract class Animal {
     private int age;
@@ -25,6 +25,5 @@ public abstract class Animal {
         this.weight = weight;
     }
 
-    public abstract String getDescription();
 }
 

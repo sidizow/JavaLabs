@@ -1,8 +1,12 @@
-package lab1;
+package lab3;
 
 public abstract class Animal {
     private int age;
     private int weight;
+
+    public Animal(){
+
+    }
 
     public Animal(int age, int weight) {
         this.age = age;

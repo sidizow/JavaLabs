@@ -1,4 +1,4 @@
-package lab1;
+package lab3;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -6,7 +6,7 @@ import java.util.Random;
 public class Main {
 
     public static void main(String[] args) {
-        showAnimal(randomAnimal(10));
+        showAnimal(randomAnimal(5));
     }
 
     public static ArrayList<Animal> randomAnimal(int n) {

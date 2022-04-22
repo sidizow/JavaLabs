@@ -1,8 +1,12 @@
-package lab1;
+package lab3;
 
 public abstract class Bird extends Animal {
     private int flightAltitude;
     private int height;
+
+    public  Bird(){
+        super();
+    }
 
     public Bird(int age, int weight, int flightAltitude, int height) {
         super(age, weight);

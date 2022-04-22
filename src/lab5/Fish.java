@@ -1,4 +1,4 @@
-package lab1;
+package lab5;
 
 public abstract class Fish extends Animal {
     private int immersionDepth;
@@ -26,5 +26,4 @@ public abstract class Fish extends Animal {
         this.length = length;
     }
 
-    public abstract String getDescription();
 }

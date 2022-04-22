@@ -1,6 +1,6 @@
-package lab1;
+package lab5;
 
-public class Perch extends Fish {
+public class Perch extends Fish implements FishInt {
     private String typePerch;
 
     public Perch(int age, int weight, int immersionDepth, int length, String typePerch) {
@@ -16,7 +16,7 @@ public class Perch extends Fish {
         this.typePerch = typePerch;
     }
 
-    public String getDescription() {
+    public String getDescriptionFish() {
         return "This is Perch. His age is " + getAge() + " years old. It's weight is " + getWeight() + " grams. " +
                 "The depth of its immersion is " + getImmersionDepth() + " meters. Its length is " + getLength() +
                 " cm. His type is " + getTypePerch();

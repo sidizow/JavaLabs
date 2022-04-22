@@ -1,8 +1,12 @@
-package lab1;
+package lab3;
 
 public abstract class Fish extends Animal {
     private int immersionDepth;
     private int length;
+
+    public Fish(){
+        super();
+    }
 
     public Fish(int age, int weight, int immersionDepth, int length) {
         super(age, weight);
