@@ -4,6 +4,14 @@ package lab5;
 import lab5.factory.BirdFactory;
 import lab5.factory.FishFactory;
 
+/*
+В данной лабораторной используется 2 фабричных метода, первый для создания объектов класса Bird, второй для создания
+объектов класса Fish. Интрефейсы для данных классов содержат методы getDescriptionBird() и getDescriptionFish(),
+которые выводят описание созданных объектов. Заполнение полей объектов происходит случайным образом. В зависимости от
+ переданных параметров в методы getBird() и getFish(), происходит создание требуемых объектов, например, "PARROT"
+ создает объект класса Parrot.
+ */
+
 public class Main {
 
     public static void main(String[] args) {

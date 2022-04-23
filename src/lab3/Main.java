@@ -5,6 +5,12 @@ import lab3.decorator.*;
 import java.util.ArrayList;
 import java.util.Random;
 
+/*
+В данной лабораторной созданы декораторы расширяющие метод getDescription(), добавляя с какого материка каждое
+животное. Для каждого животного создано по 2 декоратора, например, попугай может быть из Австралии или Индонезии.
+Выбор декоратора происходит случайным образом.
+*/
+
 public class Main {
 
     public static void main(String[] args) {

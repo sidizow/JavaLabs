@@ -14,7 +14,7 @@ public class ReadAndFind {
             BufferedReader reader = new BufferedReader(fr);
             String line = reader.readLine();
             while (line != null) {
-                findArithmeticExpression(line);
+                findArithmeticExpression(line); // Метод для нахождения арифметического выражения
                 line = reader.readLine();
             }
         } catch (IOException e) {
@@ -31,9 +31,9 @@ public class ReadAndFind {
         String operation;
 
         while (matcher.find()) {
-            firstPart = Integer.parseInt(matcher.group(1));
-            secondPart = Integer.parseInt(matcher.group(3));
-            operation = matcher.group(2);
+            firstPart = Integer.parseInt(matcher.group(1)); //Левая часть выражения
+            secondPart = Integer.parseInt(matcher.group(3)); // Правая часть выражения
+            operation = matcher.group(2); // Арифметическая операция
             switch (operation) {
                 case "-":
                     result = firstPart - secondPart;
